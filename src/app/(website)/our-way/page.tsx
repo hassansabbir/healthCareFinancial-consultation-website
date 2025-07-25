@@ -31,7 +31,7 @@ const HowWeWorkPage = () => {
 
   const renderContent = () => {
     if (!ourWaysInfo || !ourWaysInfo?.length) {
-      return <div>No content available</div>;
+      return <div>No contents available</div>;
     }
 
     const selectedContent = ourWaysInfo?.find(
